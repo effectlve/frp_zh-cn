@@ -123,17 +123,11 @@
 
 ![frpc 代理列表](docs/screenshots/frpc-proxy-list.png)
 
-#### 代理编辑
-
-<!-- 截图占位：frpc 代理编辑表单页面 -->
 
 #### 访问器列表
 
 ![frpc 访问器列表](docs/screenshots/frpc-visitor-list.png)
 
-#### 配置页面
-
-<!-- 截图占位：frpc 配置上传页面 -->
 
 ---
 
