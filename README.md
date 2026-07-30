@@ -103,25 +103,25 @@
 
 #### 服务端概览
 
-
+![frps 服务端概览](docs/screenshots/frps-overview.png)
 
 #### 客户端列表
 
-<!-- 截图占位：frps 客户端列表页面 -->
+![frps 客户端列表](docs/screenshots/frps-client-list.png)
 
 #### 客户端详情
 
-<!-- 截图占位：frps 客户端详情页面 -->
+![frps 客户端详情](docs/screenshots/frps-client-detail.png)
 
 #### 代理列表
 
-<!-- 截图占位：frps 代理列表页面 -->
+![frps 代理列表](docs/screenshots/frps-proxy-list.png)
 
 ### frpc Web UI
 
 #### 代理列表
 
-<!-- 截图占位：frpc 代理列表页面 -->
+![frpc 代理列表](docs/screenshots/frpc-proxy-list.png)
 
 #### 代理编辑
 
@@ -129,7 +129,7 @@
 
 #### 访问器列表
 
-<!-- 截图占位：frpc 访问器列表页面 -->
+![frpc 访问器列表](docs/screenshots/frpc-visitor-list.png)
 
 #### 配置页面
 
