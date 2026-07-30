@@ -18,85 +18,6 @@
 
 ---
 
-## 汉化范围
-
-### frps Dashboard（服务端面板）
-
-| 模块 | 汉化内容 |
-|------|----------|
-| 侧边栏导航 | 概览、客户端、代理 |
-| ServerOverview | 服务器概览页面所有统计卡片、流量图表、状态信息 |
-| Clients | 客户端列表页面标题、状态筛选标签（全部/在线/离线）、搜索框、空状态提示 |
-| ClientDetail | 客户端详情信息标签（连接数、运行 ID、协议、客户端地址等）、代理列表空状态 |
-| Proxies | 代理列表页面标题、类型筛选、清理确认对话框 |
-| ProxyDetail | 代理详情页面所有信息字段、流量统计 |
-| Traffic | 流量统计图表标签与时间距离显示 |
-
-### frpc Web UI（客户端面板）
-
-| 模块 | 汉化内容 |
-|------|----------|
-| 侧边栏导航 | 代理、访问器、配置 |
-| ProxyList | 代理列表标题、状态筛选标签（全部/运行中/错误/等待中）、存储/配置页签、删除确认 |
-| ProxyEdit | 面包屑导航、表单标题、保存/取消按钮、表单验证规则、离开确认 |
-| ProxyDetail | 代理详情信息字段、状态文本映射、流量统计 |
-| VisitorList | 访问器列表标题、标签页、删除确认 |
-| VisitorEdit | 面包屑导航、表单验证规则、加载/保存提示 |
-| VisitorDetail | 访问器详情信息字段、状态文本 |
-| ClientConfigure | 配置页面标题、上传确认对话框、文件上传提示 |
-| ProxyCard | 状态标签映射、操作菜单（编辑/删除/查看详情） |
-| StatusPills | 状态筛选标签全部汉化 |
-
-### 表单组件汉化
-
-**proxy-form（代理表单）**
-
-- ProxyBaseSection：名称、类型、启用
-- ProxyRemoteSection：远程端口、自定义域名、子域名
-- ProxyBackendSection：后端模式、本地 IP、本地端口、插件类型
-- ProxyAuthSection：HTTP 用户名、密码
-- ProxyHttpSection：HTTP 选项、路径、请求头
-- ProxyTransportSection：传输选项、启用加密、带宽限制
-- ProxyHealthSection：健康检查、超时、路径
-- ProxyLoadBalanceSection：负载均衡、分组、分组密钥
-- ProxyNatSection：NAT 穿透、禁用辅助地址
-- ProxyMetadataSection：元数据
-
-**visitor-form（访问器表单）**
-
-- VisitorBaseSection：名称、类型、启用
-- VisitorConnectionSection：服务端名称、绑定端口
-- VisitorTransportSection：传输选项
-- VisitorXtcpSection：XTCP 选项、协议、回退至
-
-### 共享组件
-
-| 组件 | 汉化内容 |
-|------|----------|
-| ConfirmDialog | 确认/取消按钮（默认值汉化） |
-| FilterDropdown | 全部标签（默认值汉化） |
-| PopoverMenu | 搜索占位符（默认值汉化） |
-| ConfigField | 请选择...、键、值 |
-| ConfigSection | 未配置徽章 |
-| KeyValueEditor | 添加按钮、键/值占位符 |
-| StringListEditor | 添加按钮、请输入值占位符 |
-
-### 工具函数
-
-- `formatDistanceToNow`：时间距离显示汉化（X 年前/个月前/天前/小时前/分钟前/秒前）
-
----
-
-## 保留英文的内容
-
-以下内容为 frp 协议/技术术语，按惯例保留英文：
-
-- **协议名称**：TCP、UDP、HTTP、HTTPS、STCP、SUDP、XTCP、TCPMUX、QUIC、KCP
-- **HTTP 头字段占位符**：`Header`（技术术语）
-- **配置项代码标识符**：组件名、路由名、事件名等
-
----
-
 ## 界面截图
 
 ### frps Dashboard
@@ -156,8 +77,6 @@ webServer.port = 7400
 webServer.user = "admin"
 webServer.password = "your_password"
 ```
-
-启动后访问对应地址即可看到汉化后的管理界面。
 
 ---
 
